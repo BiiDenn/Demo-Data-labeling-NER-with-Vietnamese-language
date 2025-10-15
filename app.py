@@ -5,7 +5,7 @@ import pytesseract
 from PIL import Image
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
-# ✅ Cấu hình Tesseract (nếu cài ở vị trí khác, hãy chỉnh lại đường dẫn này)
+# Cấu hình Tesseract (nếu cài ở vị trí khác, hãy chỉnh lại đường dẫn này)
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 st.set_page_config(page_title="AI Legal Text & NER Demo", page_icon="⚖️", layout="wide")

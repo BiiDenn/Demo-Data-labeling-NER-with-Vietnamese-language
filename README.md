@@ -37,7 +37,8 @@ Phần Demo này minh họa quy trình ứng dụng **Công nghệ học sâu (D
 | Deep Learning | PhoBERT Transformer models |
 | Computer Vision | Optical Character Recognition (Tesseract OCR) |
 | Web UI | Streamlit, Pandas, Python Regex |
-"# Demo-Data-labeling-NER-with-Vietnamese-language" 
 
-
-https://github.com/UB-Mannheim/tesseract/wiki
+### Chạy ứng dụng 
+1. Mở cmd và chạy lệnh python -m streamlit run app.py 
+2. Truy cập trình duyệt http://localhost:8501
+3. Tải OCR: https://github.com/UB-Mannheim/tesseract/wiki
