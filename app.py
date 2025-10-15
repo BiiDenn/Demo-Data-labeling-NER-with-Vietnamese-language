@@ -67,9 +67,6 @@ with tab1:
 # ============================
 # TAB 2 — Rule-based with OCR
 # ============================
-# ============================
-# TAB 2 — Rule-based with OCR or Manual Input
-# ============================
 with tab2:
     st.header("🔍 RÚT TRÍCH THỰC THỂ — HƯỚNG 1: Rule-based")
     st.markdown("""
@@ -121,7 +118,7 @@ with tab2:
 
 
 # =========================================
-# TAB 3 — Transformer-based NER with OCR or Manual Input
+# TAB 3 — Transformer-based NER with OCR
 # =========================================
 with tab3:
     st.header("🤖 RÚT TRÍCH THỰC THỂ — HƯỚNG 2: Transformer PhoBERT")
