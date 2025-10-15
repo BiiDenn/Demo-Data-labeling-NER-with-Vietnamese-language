@@ -1,11 +1,5 @@
 streamlit
 pandas
-regex
 pytesseract
 Pillow
-torch
 transformers
-tokenizers
-sentencepiece
-protobuf
-requests
