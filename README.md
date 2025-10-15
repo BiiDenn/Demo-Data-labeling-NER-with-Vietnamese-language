@@ -38,3 +38,6 @@ Phần Demo này minh họa quy trình ứng dụng **Công nghệ học sâu (D
 | Computer Vision | Optical Character Recognition (Tesseract OCR) |
 | Web UI | Streamlit, Pandas, Python Regex |
 "# Demo-Data-labeling-NER-with-Vietnamese-language" 
+
+
+https://github.com/UB-Mannheim/tesseract/wiki
