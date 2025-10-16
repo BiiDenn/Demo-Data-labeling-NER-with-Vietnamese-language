@@ -38,7 +38,19 @@ Phần Demo này minh họa quy trình ứng dụng **Công nghệ học sâu (D
 | Computer Vision | Optical Character Recognition (Tesseract OCR) |
 | Web UI | Streamlit, Pandas, Python Regex |
 
-### Chạy ứng dụng 
-1. Mở cmd và chạy lệnh python -m streamlit run app.py 
-2. Truy cập trình duyệt http://localhost:8501
-3. Tải OCR: https://github.com/UB-Mannheim/tesseract/wiki
+## SetUp
+### 1️⃣ Cài thư viện
+pip install -r requirements.txt
+### 2️⃣ Cài model spaCy tiếng Anh
+- python -m pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
+- python -m spacy download en_core_web_sm
+### 3️⃣ Cài Tesseract OCR
+Tải và cài từ: https://github.com/UB-Mannheim/tesseract/wiki
+Sau đó chỉnh lại đường dẫn trong code nếu Tesseract nằm ở vị trí khác:
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+### 4️⃣ Chạy ứng dụng
+- python -m streamlit run app.py
+- Truy cập trình duyệt http://localhost:8501
+
+
+
